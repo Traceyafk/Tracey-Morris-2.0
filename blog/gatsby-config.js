@@ -9,10 +9,14 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Trays Warhammer 40k fan Page`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `Tracey Morris`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    contact: {
+      name: `Tracey Morris`,
+      company: `Warhammer fans Inc.`
+    }
   },
   plugins: [
     `gatsby-plugin-image`,
