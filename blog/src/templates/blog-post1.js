@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
-const BlogPost = ({ data }) => {
+const BlogPost1 = ({ data }) => {
     const { title } = data.contentfulBlogPost1;
 
     return (
