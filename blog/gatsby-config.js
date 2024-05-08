@@ -19,6 +19,13 @@ module.exports = {
     }
   },
   plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `xzjywthvriha`,
+        accessToken: `6NutTHdmKaQLUIIzKNAaI_LeTELcLLeiPkjiHUVHwrY`
+      }
+    }
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
