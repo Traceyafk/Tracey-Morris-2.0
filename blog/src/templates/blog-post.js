@@ -16,8 +16,8 @@ const BlogPost1 = ({ data }) => {
 export default BlogPost1;
 
 export const pageQuery = graphql`
-    query blogPost1Query($slug: String!) {
-        ContentfulBlogPost(slug: {eq: $slug}) {
+    query blogPostQuery($slug: String!) {
+        contentfulBlogPost(slug: {eq: $slug}) {
             title
             slug
             body {
