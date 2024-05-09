@@ -37,8 +37,8 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
