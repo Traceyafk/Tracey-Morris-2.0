@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import styled, { ThemeProvider } from "styled-components"
 
-import Header from "./header"
-import "./layout.css"
 import { Gray } from "./themes/Gray"
+import { Header } from "./Header"
+import "./layout.css"
 
 const Content = styled.div`
   margin: 0 auto;
