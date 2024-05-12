@@ -1,5 +1,5 @@
 import React from 'raect'
-import propTypes from 'prop-types'
+import PropTypes from 'prop-types'
 import { ThemeConsumer } from 'styled-componenets'
 import { IconButton } from './IconButton'
 
