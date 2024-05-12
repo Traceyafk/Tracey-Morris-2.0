@@ -15,7 +15,7 @@ const StyledHeader = styled.header`
   align-items: center;
   justify-content: space-between;
   height: 50px;
-  background: ${props => props.theme.header.backgroundColor};
+  background: ${({ theme }) => theme.variants.header.primary.backgroundColor};
 `
 const StyledLink = styled(Link)`
 font-size: var(--font-sm);
