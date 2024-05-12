@@ -26,6 +26,13 @@ query blogPostQuery($slug: String!) {
         html
       }
     }
-  }
-}
+    heroImage {
+                gatsbyImageData(
+                    layout: CONSTRAINED
+                    placeholder: BLURRED
+                    width: 960
+                )
+            }
+	    }
+    }
 `
