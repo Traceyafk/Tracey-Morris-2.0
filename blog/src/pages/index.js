@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
   <Seo title="Home" />
   <Grid>
     {
-      data.allContentfulBlogPost.edges.map(edge => (
+      data.allContentfulBlogPost1.edges.map(edge => (
         <Card width={256} p={3} key={edge.node.id}>
           <Link to={edge.node.slug}>
             <GatsbyImage
